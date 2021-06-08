@@ -1,0 +1,47 @@
+main .post .thumbnail{
+    height: 20vh;
+    width: auto;
+    
+}
+
+.post{
+    display: block;
+    margin: 5rem;
+    margin-top: 10px;
+    width: 90%;
+    box-shadow: 10px 10px 10px gray;
+    background-color: rgb(201, 197, 197);
+    transition: 0.4s;
+}
+.postDark{
+    background-color: rgb(58, 58, 58);
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+}
+.postDark .aDark{
+    color: rgb(255, 255, 255);
+}
+.post a{
+
+    font-size: 2rem;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin: 10px;
+    font-weight: bold;
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+}
+.post:hover{
+    box-shadow: 10px 10px 10px rgb(56, 56, 56);
+    margin-top: 15px;
+}
+.post a:hover{
+    color: grey;
+}
+.post p{
+    padding: 5px;
+    color: rgb(56, 56, 56);
+}
+.post .darkBlogDesc{
+    color: rgb(168, 168, 168);
+}
